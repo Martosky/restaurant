@@ -22,3 +22,14 @@
     background-color: rgb(10, 10, 10, 0.8);
     
 }
+.header{
+    margin: 10px;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(109, 107, 107, 0.6);
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
