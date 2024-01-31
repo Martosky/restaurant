@@ -75,3 +75,9 @@
     color: orange;
     transform: translate(-2px);
 }
+.main{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
