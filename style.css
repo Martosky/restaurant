@@ -28,26 +28,50 @@
     height: auto;
     overflow: hidden;
     background-color: rgb(109, 107, 107, 0.6);
-    padding: 5px;
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
 }
+.logo{
+    
+    margin: auto 20px;
+    
+}
+.logo:hover{
+    transform: rotate(350deg);
+    transition: transform 2s;
+}
 .links{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 60px;
+    gap: 100px;
 }
 .links > a{
     text-decoration: none;
     color: white;
     font-size: 18px;
+    padding: 20px;
+    height: 100%;
+}
+.links > a:hover{
+    color: orange;
+    transform: translate(-2px);
+    background-color: black;
 }
 .user{
     display: flex;
     align-items: center;
     padding-right: 20px;
+}
+.user p > a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.user p > a:hover{
+    color: orange;
+    transform: translate(-2px);
 }
