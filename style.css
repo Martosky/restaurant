@@ -104,6 +104,7 @@
     margin-top: 100px;
 }
 .left-content > button{
+    display: block;
     width: 140px;
     background-color: orangered;
     color: white;
@@ -111,10 +112,12 @@
     border: none;
     outline: none;
     border-radius: 5px;
+    margin: 0 auto;
 }
   .fa-solid{
     display: none;
     font-size: 16px;
-    color: black;
+    color: white;
     padding: 10px;
+    
 }
