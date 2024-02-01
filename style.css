@@ -90,12 +90,31 @@
     text-align: center;
     color: white;
     padding: 20px;
+    transition: 1s;
 }
 .right-content{
     width: 50%;
     height: auto;
-    background-color: aliceblue;
+    
 }
 .right-content img{
-    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.left-content > button{
+    width: 140px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+  .fa-solid{
+    display: none;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
 }
