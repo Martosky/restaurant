@@ -130,3 +130,12 @@
     height: 100vh;
     margin: 0;
 }
+.element{
+    width: 90%;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
