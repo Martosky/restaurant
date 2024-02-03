@@ -60,6 +60,7 @@
     color: orange;
     transform: translate(-2px);
     background-color: black;
+    transition: all 1s ease-in-out;
 }
 .user{
     display: flex;
@@ -106,13 +107,16 @@
 .left-content > button{
     display: block;
     width: 140px;
-    background-color: orangered;
+    background-color: rgb(255, 17, 0);
     color: white;
     font-size: 16px;
     border: none;
     outline: none;
     border-radius: 5px;
     margin: 0 auto;
+}
+.left-content > button{
+    box-shadow: 2px 4px rgba(29,29, 29, 0.4);
 }
   .fa-solid{
     display: none;
