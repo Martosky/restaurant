@@ -125,39 +125,3 @@
     padding: 10px;
     
 }/* will redo this part*/
-.main-body{
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: gray;
-}
-.body-content{
-    width: 100%;
-    margin: 0;
-}
-.elements{
-    background-color: yellow;
-    width: 90%;
-    padding: 20px;
-    height: auto;
-    margin: 0 auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-.col-25{
-    width: 30%;
-    height: auto;
-    overflow: hidden;
-    border-radius: 10px;
-    background-color: white;
-}
-.col-25 > p{
-    color: black;
-}
-.col-25 >img{
-    width: 100%;
-}
