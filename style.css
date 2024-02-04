@@ -125,3 +125,52 @@
     padding: 10px;
     
 }/* will redo this part*/
+.main-body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: gray;
+    
+}
+.header-content{
+ width: 100%;
+ padding: 20px;
+}
+.body-content{
+    width: 100%;
+    margin: 0;
+}
+input{
+    display: block;
+    width: 350px;
+    padding: 8px;
+    margin: 20px auto;
+}
+.elements{
+    background-color: yellow;
+    overflow: hidden;
+    width: 90%;
+    padding: 20px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.col-25{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+.col-25 > p{
+    color: black;
+}
+.col-25 >img{
+    width: 100%;
+}
