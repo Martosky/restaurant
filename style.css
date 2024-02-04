@@ -146,6 +146,9 @@ input{
     width: 350px;
     padding: 8px;
     margin: 20px auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
 }
 .elements{
     background-color: yellow;
