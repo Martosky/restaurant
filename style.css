@@ -176,4 +176,10 @@ input{
 }
 .col-25 >img{
     width: 100%;
+    height: 170px;
+}
+.col-25:last-child::after{
+    content: "";
+    width: 30%;
+    height: auto;
 }
