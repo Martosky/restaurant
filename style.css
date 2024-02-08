@@ -186,7 +186,7 @@ input{
 .col-25 >img{
     width: 100%;
     height: 170px;
-   box-shadow: 4px 3px 4px 0;
+  
 }
 
 .col-25 span{
@@ -194,4 +194,10 @@ input{
     font-style: italic;
     font-size: 12px;
     padding-left: 20px;
+}
+.price-add{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
