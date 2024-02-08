@@ -135,8 +135,15 @@
     
 }
 .header-content{
- width: 100%;
- padding: 20px;
+   width: 100%;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.header-a-content a{
+   padding-left: 50px;
+   text-decoration: none;
+   color: black;
 }
 .body-content{
     width: 100%;
