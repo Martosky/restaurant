@@ -233,3 +233,11 @@ input{
     right: 2px;
     opacity: 0.8;
 }
+.inside-button{
+    background-color: orangered;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
