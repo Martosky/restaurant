@@ -141,19 +141,32 @@
    justify-content: space-between;
 }
 .header-a-content a{
-   padding-left: 50px;
+   padding-right: 50px;
    text-decoration: none;
    color: black;
 }
+.dark-bright .fa-solid{
+    color: black;
+    font-size: 23px;
+    margin-right: 200px;
+}
 .body-content{
+    position: relative;
     width: 100%;
     margin: 0;
+}
+.body-content .fa-solid{
+    position: absolute;
+    color: black;
+    
+    left: 37%;
 }
 input{
     display: block;
     width: 350px;
     padding: 8px;
     margin: 20px auto;
+    padding-left: 37px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -208,6 +221,7 @@ input{
 
 .shopping-cart .fa-solid{
     color: black;
+    font-size: 23px;
 }
 .shopping-cart .counter{
     position: absolute;
@@ -218,3 +232,4 @@ input{
     top: 2px;
     right: 2px;
     opacity: 0.8;
+}
