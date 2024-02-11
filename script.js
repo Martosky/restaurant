@@ -1,6 +1,8 @@
-const bgColor = document.getElementsByClassName("main-body");
-const 
+const bgColor = document.getElementById("content-body");
+const button = document.getElementById("dark-bright");
+
+button.addEventListener("click", changeBgColor);
 
 function changeBgColor(){
-    if ()
+    bgColor.classList.toggle("dark")
 }
