@@ -5,4 +5,5 @@ button.addEventListener("click", changeBgColor);
 
 function changeBgColor(){
     bgColor.classList.toggle("dark")
+    button.style.color = "white"
 }
