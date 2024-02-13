@@ -11,10 +11,17 @@
         <form>
             <fieldset>
                 <legend>Info</legend>
-                <label>First name:</label>
-                <input type="text" name="firstname" id="firstname" placeholder="firstname" required>
-                <label>Last name:</label>
-                <input type="text" name="lasttname" id="lastname" placeholder="lastname" required>
+                <label for="fname">First name:</label>
+                <input type="text" name="firstname" id="fname" placeholder="firstname" required>
+                <label for="lname">Last name:</label>
+                <input type="text" name="lasttname" id="lname" placeholder="lastname" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="ex@me.com" required>
+                <label for="pwd">Password</label>
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" id="show-pwd"> <label>Show password</label>
             </fieldset>
         </form>
     </div>
