@@ -1,0 +1,2 @@
+this is a food app where you can order varieties of food for your consumption
+i will be adding more features to it
