@@ -1,10 +1,20 @@
-.main-form h2 a{
-    text-decoration: none;
-    color: black;
+body{
+    background-image: url(photos/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-form a > button{
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    position: sticky;
+    top: 0;
 }
 .main-form p{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 .form-content{
@@ -23,7 +33,7 @@ input{
     border-radius: 4px;
     border: none;
     outline: none;
-    background-color: rgb(241, 197, 146);
+    background-color: orange;
 }
 label{
     margin-left: 150px;
@@ -46,6 +56,7 @@ fieldset{
     font-size: unset;
     text-align: unset;
     display: inline;
+    color: black;
 }
 button{
     display: block;
