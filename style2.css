@@ -1,7 +1,8 @@
+
 body{
     background-image: url(photos/background.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .main-form a > button{
     width: 50px ;
