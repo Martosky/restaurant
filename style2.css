@@ -22,7 +22,7 @@ body{
     width: 50%;
     margin: 20px auto;
     background-color: antiquewhite;
-    border: 3px solid orange;
+    border: 3px solid rgb(238, 204, 140);
     border-radius: 6px;
     padding: 20px;
 }
@@ -34,7 +34,7 @@ input{
     border-radius: 4px;
     border: none;
     outline: none;
-    background-color: orange;
+    background-color: rgb(238, 204, 140);
 }
 label{
     margin-left: 150px;
