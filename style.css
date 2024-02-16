@@ -141,18 +141,18 @@
    display: flex;
    justify-content: space-between;
 }
-.header-a-content a{
+.header-a-content > a{
    padding-right: 50px;
    text-decoration: none;
    color: black;
 }
-.header-a-content a:hover{
+.header-a-content > a:hover{
     color: orangered;
     transform: translate(2px, 2px);
     transition: all 0.5s; 
 }
 
-.dark-bright .fa-solid{
+.dark-bright > .fa-solid{
     color: black;
     font-size: 23px;
     margin-right: 200px;
@@ -263,104 +263,5 @@ input{
     width: 100%;
     height: 100%;
     margin: 0;
-} */
+} 
 
-/* the login page */
-
-.login-modal{
-    display: none;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: rgba(8, 8, 8, 0.8);
-    
- }
- .modal{
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
- }
- .main-page{
-    position: relative;
-    width: 80%;
-    height: 50%;
-    margin:0 auto;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    
-}
-.login-page{
-    width: 50%;
-    padding: 10px;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.login-page input{
-    display: block;
-    width: 50%;
-    padding: 6px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    margin: 10px;
-    background-color: rgb(238, 204, 140);
-}
-.login-page .inline-input > input, .p2 {
-    display: inline;
-    width: 20px;
-}
-.login-page > .p1{
-    width: 100%;
-    display: block;
-    margin-left: 265px;
-    margin-top: 10px;
-    
-}
-.login-bg{
-    margin: 0;
-    width: 50%;
-    height: 100%;
-    background-image: url(photos/burger.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
-}
-.b-log{
-    display: block;
-    width: 140px;
-    padding: 6px;
-    background-color: rgb(255, 17, 0);
-    color: white;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    margin: 0 auto;
-}
-.close{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.close:hover{
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-}
-.animate{
-    animation: animatezoom 1s;
-}
-@keyframes animatezoom{
-    from{transform: scale(0);}
-    to{transform: scale(1);}
-}
