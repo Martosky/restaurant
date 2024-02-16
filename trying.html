@@ -8,6 +8,8 @@
     <style>
      *{
             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
         
     }
 
@@ -66,7 +68,7 @@
 .login-page > p{
     width: 100%;
     display: block;
-    margin-left: 250px;
+    margin-left: 265px;
     margin-top: 10px;
     
 }
@@ -101,38 +103,36 @@ button{
     color: white;
     border-radius: 50%;
 }
+.animate{
+    animation: animatezoom 1s;
+}
+@keyframes animatezoom{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
     </style>
 </head>
 <body>
-    <button id="login">Open modal</button>
-    <div class="login-modal" id="login-modal">
-        <div class="modal">
+    <button onclick='document.getElementById("login-modal").style.display = "block"' >Open modal</button>
+    <div class="login-modal animate" id="login-modal">
+        <div class="modal" id="modal">
         <div class="main-page">
-        <i class="fa-solid fa-xmark"></i>
+        <i class="fa-solid fa-xmark" onclick='document.getElementById("login-modal").style.display= "none"' ></i>
         <div class="login-page">
           <P>Username</P>
           <input type="text" id="user-id" name="user-id" placeholder="Username / Email" required>
           <P>Password</P>
           <input type="password" id="pwd" name="pwd" placeholder="Enter password" required>
         <div class="inline-input"><input type="checkbox" id="check">
-           <p>Show / Hide password.</p>
+           <p>Remember me</p>
         </div>
         <button>Login</button>
-        <p>Forgot password<a href="#"> click here</a> </p>
+        <p>Forgot <a href="#">password</a></p>
      </div>
      <div class="login-bg"></div>
      </div>
       </div>
     </div>
-    <script>
-        const openModalBtn = document.getElementById("login");
-        const modal = document.getElementById("login-modal")
- 
-
-        openModalBtn.addEventListener("click", openModal)
-        function openModal(){
-          modal.style.display = "block";
-        }
-    </script>
+    
 </body>
 </html>

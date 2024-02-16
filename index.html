@@ -20,7 +20,7 @@
               <a href="contact.html">Contact</a>
             </div>
             <div class="user">
-               <p><a href="trying.html">Login</a></p><p>/</p><p><a href="register.html"> Register</a></p> 
+               <p onclick='document.getElementById("login-modal").style.display = "block"'>Login</p><p>/</p><p><a href="register.html"> Register</a></p> 
             </div>
           </div>
           <div class="main">
@@ -31,24 +31,34 @@
                    One can not think well, love well, sleep well, if one has not dine well.
                    Part of the secret of success in life is to eat what you like and let the food fight it out inside.
                </p>
-               <button><a href="menu.html">Go to menu<i class="fa-solid fa-arrow-right-long"></i></a></button>
+               <button class="lefty"><a href="menu.html">Go to menu<i class="start-fa fa-solid fa-arrow-right-long"></i></a></button>
             </div>
             <div class="right-content">
                <img src="photos/trainchick.png" alt="Chicken" width="350px">
             </div>
           </div>
        </div>
-       <div class="login-modal">
-         <div class="main-page">
-         <div class="login-page">
-         <input type="text" id="user-id" name="user-id" placeholder="User-id / Email" required>
-         <input type="password" id="pwd" name="pwd" placeholder="Enter password" required>
-         <div class="inline-input"><input type="checkbox" id="check">
-            <p>Show password.</p>
-         </div>
+       <!--this is the modal login page-->
+    <div class="login-modal animate" id="login-modal">
+        <div class="modal" id="modal">
+        <div class="main-page">
+        <i class="fa-solid fa-xmark close" onclick='document.getElementById("login-modal").style.display= "none"' ></i>
+        <div class="login-page">
+          <P class="p1">Username</P>
+          <input type="text" id="user-id" name="user-id" placeholder="Username / Email" required>
+          <P class="p1">Password</P>
+          <input type="password" id="pwd" name="pwd" placeholder="Enter password" required>
+        <div class="inline-input"><input type="checkbox" id="check">
+           <p class="p2">Remember me</p>
+        </div>
+        <button class="b-log">Login</button>
+        <p>Forgot <a href="#">password</a></p>
+     </div>
+     <div class="login-bg"></div>
+     </div>
       </div>
-      <div class="login-bg"></div>
-      </div>
+    </div>
+    
        </div>
     </div>
     <script src="script.js"></script>

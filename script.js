@@ -27,16 +27,3 @@ function textColor(){
     }
 }
 
-const openModalBtn = document.getElementById("login");
-const modal = document.getElementById("login-modal")
- 
-
-openModalBtn.addEventListener("click", openModal)
-function openModal(){
-
-    if (modal.style.display == "none"){
-        modal.style.display = "block";
-    }else{
-        modal.style.display = "none"
-    }
-}
