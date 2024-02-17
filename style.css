@@ -142,7 +142,7 @@
    justify-content: space-between;
 }
 .header-a-content > a{
-   padding-right: 50px;
+   padding: 25px 0;
    text-decoration: none;
    color: black;
 }
@@ -155,8 +155,27 @@
 .dark-brights > .fa-solid{
     color: black;
     font-size: 23px;
-    margin-right: 200px;
+    margin-right: 220px;
 }
+
+.shopping-cart{
+    position: relative;
+ }
+ 
+ .shopping-cart .fa-solid{
+     color: black;
+     font-size: 23px;
+ }
+ .shopping-cart .counter{
+     position: absolute;
+     width: 15px;
+     height: 15px;
+     background-color: red;
+     border-radius: 50px;
+     top: 1px;
+     right: 1px;
+     opacity: 0.8;
+ }
 .body-content{
     position: relative;
     width: 100%;
@@ -165,8 +184,8 @@
 .body-content > .fa-solid{
     position: absolute;
     color: black;
-    
-    left: 37%;
+    left: 37.5%;
+    padding: 8px;
 }
 input{
     display: block;
@@ -222,24 +241,6 @@ input{
     margin-right: 10px;
 }
 
-.shopping-cart{
-   position: relative;
-}
-
-.shopping-cart .fa-solid{
-    color: black;
-    font-size: 23px;
-}
-.shopping-cart .counter{
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background-color: red;
-    border-radius: 50px;
-    top: 2px;
-    right: 2px;
-    opacity: 0.8;
-}
 .inside-button{
     background-color: orangered;
     color: white;
