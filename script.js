@@ -16,14 +16,4 @@ function changeBgColor(){
     }
 }
 
-function textColor(){
-    const changeText = document.getElementsByClassName("change");
-    for (let i = 0; i < changeText.length; i++){
-        if (changeText[i].style.color == "black"){
-            changeText[i].style.color = "white"
-        }else {
-            changeText[i].style.color = "black"
-        }
-    }
-}
 
