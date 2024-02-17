@@ -142,7 +142,8 @@
    justify-content: space-between;
 }
 .header-a-content > a{
-   padding: 25px 0;
+   padding-right: 25px;
+   padding-left: 25px;
    text-decoration: none;
    color: black;
 }
@@ -165,6 +166,7 @@
  .shopping-cart .fa-solid{
      color: black;
      font-size: 23px;
+     padding-right: 25px;
  }
  .shopping-cart .counter{
      position: absolute;
@@ -172,8 +174,8 @@
      height: 15px;
      background-color: red;
      border-radius: 50px;
-     top: 1px;
-     right: 1px;
+     top: -5px;
+     right: 20px;
      opacity: 0.8;
  }
 .body-content{
