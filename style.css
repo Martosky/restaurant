@@ -267,4 +267,62 @@ input{
     height: 100%;
     margin: 0;
 } 
+/* Modal login page */
 
+.login-modal{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(168, 165, 165, 0.8);
+    
+ }
+
+ .modal{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .main-page{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    margin:0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.login-page{
+    width: 50%;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-page > input{
+    display: block;
+    width: 50%;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+    background-color: rgb(238, 204, 140);
+}
+.login-page .inline-input > input {
+    display: inline;
+    width: 20px;
+}
+.login-page .inline-input > p {
+    display: inline;
+    width: 20px;
+}
