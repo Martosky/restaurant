@@ -20,7 +20,7 @@
               <a href="contact.html">Contact</a>
             </div>
             <div class="user">
-               <p><a href="trying.html">Login</a></p><p>/</p><p><a href="register.html"> Register</a></p> 
+               <p onclick='document.getElementById("login-modal").style.display = "block"'><span>Login</span></p><p>/</p><p><a href="register.html"> Register</a></p> 
             </div>
           </div>
           <div class="main">
@@ -44,15 +44,15 @@
          <div class="main-page">
          <i class="fa-solid fa-xmark" onclick='document.getElementById("login-modal").style.display= "none"' ></i>
          <div class="login-page">
-           <P>Username</P>
+           <P class="p1">Username</P>
            <input type="text" id="user-id" name="user-id" placeholder="Username / Email" required>
-           <P>Password</P>
+           <P class="p1">Password</P>
            <input type="password" id="pwd" name="pwd" placeholder="Enter password" required>
          <div class="inline-input"><input type="checkbox" id="check">
-            <p>Remember me</p>
+            <p class="p1">Remember me</p>
          </div>
-         <button button-bg>Login</button>
-         <p>Forgot <a href="#">password</a></p>
+         <button class="button-bg">Login</button>
+         <p class="p1">Forgot <a href="#">password</a></p>
       </div>
       <div class="login-bg"></div>
       </div>
