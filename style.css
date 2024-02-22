@@ -389,3 +389,10 @@ input{
     from{transform: scale(0);}
     to{transform: scale(1);}
 }
+/* cart page that shows client selection */
+
+.body-container {
+    margin: 0;
+    padding: 0;
+    
+}
