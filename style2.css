@@ -1,13 +1,14 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
 
-.main-form{
+body .main-form{
     background-image: url(photos/background.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0;
+    padding: 0;
     height: 100%;
 }
 .main-form a > button{
