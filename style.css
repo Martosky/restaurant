@@ -403,7 +403,12 @@ input{
     width: 70%;
 }
 .cart-headings{
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.minor-side{
+    width: 30px;
+    border: 1px solid black;
 }
