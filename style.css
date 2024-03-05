@@ -399,7 +399,7 @@ input{
 .cart-header{
      background-color: bisque;
 }
-
+/* Adding flex to the item and total content */
 .flex-fix{
     display: flex;
     flex-direction: row;
