@@ -399,6 +399,12 @@ input{
 .cart-header{
      background-color: bisque;
 }
+
+.flex-fix{
+    display: flex;
+    flex-direction: row;
+}
+
 .cart-main-side{
     width: 70%;
 }
