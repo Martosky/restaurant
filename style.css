@@ -403,10 +403,11 @@ input{
 .flex-fix{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .cart-main-side{
-    width: 70%;
+    width: 65%;
 }
 .cart-headings{
     padding-bottom: 20px;
@@ -415,6 +416,6 @@ input{
     justify-content: space-between;
 }
 .minor-side{
-    width: 30px;
+    width: 25%;
     border: 1px solid black;
 }
